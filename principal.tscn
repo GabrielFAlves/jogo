@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d27460mp5w6c7"]
+
+[ext_resource type="Texture2D" uid="uid://dyoivtbms5q3j" path="res://icon.svg" id="1_hilip"]
+[ext_resource type="Script" path="res://figurinha.gd" id="2_26gua"]
+
+[node name="Principal" type="Node2D"]
+
+[node name="Figurinha" type="Sprite2D" parent="."]
+texture = ExtResource("1_hilip")
+script = ExtResource("2_26gua")
+velocidade = 1
